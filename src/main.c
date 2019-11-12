@@ -86,7 +86,7 @@ int main()
                new_str[i]='_';
            }
        }       
-       printf("%s",new_str);
+
             while (read_count == 100) {
             write(STDOUT_FILENO, new_str, strlen(new_str));
 
